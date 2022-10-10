@@ -1,3 +1,3 @@
-a,b,c=map(int,input().split())
-d=2*a*b*c*512
-print(d//1024,end='KB')
+s,t,b=map(int,input().split())
+res=(2*s*t*b*512)//1024
+print(str(res)+'KB')
